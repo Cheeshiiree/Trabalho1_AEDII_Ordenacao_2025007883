@@ -1,0 +1,4 @@
+Algoritmo,Tamanho,Tempo(ms),Comparacoes,Movimentacoes
+InsertionSort,100,0.00,2507,2507
+QuickSort,100,0.00,628,1152
+CountingSort,100,0.00,0,1400

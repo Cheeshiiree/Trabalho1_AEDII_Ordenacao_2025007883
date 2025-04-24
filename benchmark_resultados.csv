@@ -1,0 +1,4 @@
+Algoritmo,Tamanho,Média Tempo (ms)
+InsertionSort,10000,58.60
+QuickSort,10000,0.00
+CountingSort,10000,0.00
