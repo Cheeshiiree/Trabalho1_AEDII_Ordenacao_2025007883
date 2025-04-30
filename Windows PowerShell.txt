@@ -1,0 +1,401 @@
+PS D:\Users\annab\Área de Trabalho\Outros\Unifei 2025 1\Codigos\C\Trabalho1_AEDII_Ordenacao_2025007883\Trabalho1_AEDII_Ordenacao_2025007883> gcc main_benchmark_todos_algoritmos.c counting_sort.c insertion_sort.c quick_sort.c ES.c -finput-charset=UTF-8 -o benchmark_todos_algoritmos -lm
+PS D:\Users\annab\Área de Trabalho\Outros\Unifei 2025 1\Codigos\C\Trabalho1_AEDII_Ordenacao_2025007883\Trabalho1_AEDII_Ordenacao_2025007883> ./benchmark_todos_algoritmos
+
+======================================
+▶ Testando tamanho: 100 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.40 ms
+⏱ Tempo para tipo 'Aleatório': 0.05 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 4.00 ms
+⏱ Tempo para tipo 'Crescente': 0.01 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 4.00 ms
+⏱ Tempo para tipo 'Decrescente': 0.01 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 1.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.20 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 3.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.20 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.05 segundos
+
+======================================
+▶ Testando tamanho: 1000 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 1.00 ms
+    📊 Média: 0.20 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 1.00 ms
+    🕒 Execução 2: 1.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.40 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 3.60 ms
+⏱ Tempo para tipo 'Aleatório': 0.07 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 2.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 4.00 ms
+⏱ Tempo para tipo 'Crescente': 0.01 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 1.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 2.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Decrescente': 0.02 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 0.00 ms
+    🕒 Execução 2: 0.00 ms
+    🕒 Execução 3: 0.00 ms
+    🕒 Execução 4: 0.00 ms
+    🕒 Execução 5: 0.00 ms
+    📊 Média: 0.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 3.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.00 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.06 segundos
+
+======================================
+▶ Testando tamanho: 10000 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 62.00 ms
+    🕒 Execução 2: 64.00 ms
+    🕒 Execução 3: 63.00 ms
+    🕒 Execução 4: 62.00 ms
+    🕒 Execução 5: 62.00 ms
+    📊 Média: 62.60 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 1.00 ms
+    🕒 Execução 2: 1.00 ms
+    🕒 Execução 3: 1.00 ms
+    🕒 Execução 4: 2.00 ms
+    🕒 Execução 5: 1.00 ms
+    📊 Média: 1.20 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 4.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 3.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.40 ms
+⏱ Tempo para tipo 'Aleatório': 0.38 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 186.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 4.00 ms
+⏱ Tempo para tipo 'Crescente': 0.20 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 125.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 151.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 4.00 ms
+⏱ Tempo para tipo 'Decrescente': 0.29 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 15.00 ms
+    🕒 Execução 2: 16.00 ms
+    🕒 Execução 3: 14.00 ms
+    🕒 Execução 4: 15.00 ms
+    🕒 Execução 5: 15.00 ms
+    📊 Média: 15.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 1.00 ms
+    🕒 Execução 2: 1.00 ms
+    🕒 Execução 3: 1.00 ms
+    🕒 Execução 4: 2.00 ms
+    🕒 Execução 5: 2.00 ms
+    📊 Média: 1.40 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 3.60 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.15 segundos
+
+======================================
+▶ Testando tamanho: 20000 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 242.00 ms
+    🕒 Execução 2: 240.00 ms
+    🕒 Execução 3: 241.00 ms
+    🕒 Execução 4: 241.00 ms
+    🕒 Execução 5: 241.00 ms
+    📊 Média: 241.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 2.00 ms
+    🕒 Execução 3: 3.00 ms
+    🕒 Execução 4: 2.00 ms
+    🕒 Execução 5: 2.00 ms
+    📊 Média: 2.40 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 4.00 ms
+    🕒 Execução 2: 4.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.80 ms
+⏱ Tempo para tipo 'Aleatório': 1.29 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 720.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Crescente': 0.74 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 484.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 582.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Decrescente': 1.08 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 53.00 ms
+    🕒 Execução 2: 51.00 ms
+    🕒 Execução 3: 52.00 ms
+    🕒 Execução 4: 52.00 ms
+    🕒 Execução 5: 50.00 ms
+    📊 Média: 51.60 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 4.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 3.80 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 4.00 ms
+    🕒 Execução 3: 3.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.20 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.35 segundos
+
+======================================
+▶ Testando tamanho: 25000 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 368.00 ms
+    🕒 Execução 2: 366.00 ms
+    🕒 Execução 3: 365.00 ms
+    🕒 Execução 4: 368.00 ms
+    🕒 Execução 5: 363.00 ms
+    📊 Média: 366.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 2.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 2.80 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.20 ms
+⏱ Tempo para tipo 'Aleatório': 1.92 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 1104.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Crescente': 1.12 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 726.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 1071.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Decrescente': 1.81 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 90.00 ms
+    🕒 Execução 2: 89.00 ms
+    🕒 Execução 3: 89.00 ms
+    🕒 Execução 4: 88.00 ms
+    🕒 Execução 5: 88.00 ms
+    📊 Média: 88.80 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 2.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 2.80 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 4.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 3.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 3.60 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.53 segundos
+
+======================================
+▶ Testando tamanho: 32400 elementos
+======================================
+• Tipo: Aleatório (5 execuções)
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 628.00 ms
+    🕒 Execução 2: 616.00 ms
+    🕒 Execução 3: 617.00 ms
+    🕒 Execução 4: 611.00 ms
+    🕒 Execução 5: 611.00 ms
+    📊 Média: 616.60 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 3.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 3.00 ms
+    📊 Média: 3.40 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 4.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 4.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 3.80 ms
+⏱ Tempo para tipo 'Aleatório': 3.18 segundos
+• Tipo: Ordenado Crescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 0.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 1843.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Crescente': 1.86 segundos
+• Tipo: Ordenado Decrescente
+  ➤ Algoritmo: InsertionSort
+    🕒 Tempo: 1232.00 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Tempo: 1511.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Tempo: 3.00 ms
+⏱ Tempo para tipo 'Decrescente': 2.76 segundos
+• Tipo: Quase Ordenado (10% desordenado) - 5 execuções
+  ➤ Algoritmo: InsertionSort
+    🕒 Execução 1: 147.00 ms
+    🕒 Execução 2: 146.00 ms
+    🕒 Execução 3: 144.00 ms
+    🕒 Execução 4: 144.00 ms
+    🕒 Execução 5: 150.00 ms
+    📊 Média: 146.20 ms
+  ➤ Algoritmo: QuickSort
+    🕒 Execução 1: 5.00 ms
+    🕒 Execução 2: 5.00 ms
+    🕒 Execução 3: 5.00 ms
+    🕒 Execução 4: 5.00 ms
+    🕒 Execução 5: 5.00 ms
+    📊 Média: 5.00 ms
+  ➤ Algoritmo: CountingSort
+    🕒 Execução 1: 4.00 ms
+    🕒 Execução 2: 3.00 ms
+    🕒 Execução 3: 5.00 ms
+    🕒 Execução 4: 4.00 ms
+    🕒 Execução 5: 4.00 ms
+    📊 Média: 4.00 ms
+⏱ Tempo para tipo 'Quase Ordenado': 0.83 segundos
+
+✅ Benchmark finalizado. Tempo total: 18.94 segundos
+

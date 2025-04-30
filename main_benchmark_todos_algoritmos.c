@@ -20,13 +20,14 @@
 #define REPETICOES 5
 #define MAX_VALOR 1000000
 
-int tamanhos[NUM_TAMANHOS] = {100, 1000, 10000, 100000, 1000000, 10000000};
-
+//int tamanhos[NUM_TAMANHOS] = {100, 1000, 10000, 100000, 1000000, 10000000}; // O tamanho 100000, 1000000 e 10000000 não consegue ser executado em minha máquina então utilizarei tamanhos que consigo executar
+int tamanhos[NUM_TAMANHOS] = {100, 1000, 10000, 20000, 25000, 32400}; // Tamanhos reduzidos para evitar estouro de memória
+// Tamanho máximo que é possível executar em minha máquina é 32400
 int main()
 {
     clock_t inicioBenchmark = clock();
 
-    FILE *csv = fopen("benchmark_todos_algoritmos.csv", "w");
+    FILE *csv = fopen("benchmark_QIC.csv", "w");
     if (csv == NULL)
     {
         printf("Erro ao criar arquivo CSV.\n");
