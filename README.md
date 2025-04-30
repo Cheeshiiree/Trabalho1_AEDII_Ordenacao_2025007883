@@ -6,7 +6,7 @@ Trabalho 1 de AEDII - Tema CountSort
 Este projeto foi desenvolvido como parte do Trabalho Prático 1 da disciplina de Algoritmos e Estrutura de Dados II (CTCO02) da Universidade Federal de Itajubá (UNIFEI). O objetivo principal é implementar e realizar um benchmarking comparativo do tempo de execução de três algoritmos de ordenação interna:
 
 1.  **Insertion Sort**
-2.  **Quick Sort** (utilizando a estratégia de particionamento com pivô no início, conforme exemplo das aulas)
+2.  **Quick Sort** 
 3.  **Counting Sort**
 
 A análise compara o desempenho desses algoritmos ao ordenar vetores de diferentes tamanhos e com diferentes configurações iniciais (aleatório, crescente, decrescente, quase ordenado).
